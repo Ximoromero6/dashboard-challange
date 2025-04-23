@@ -1,4 +1,4 @@
-# Frontend Mentor - Tip calculator app solution
+# Frontend Mentor - Social Dashboard Theme
 
 This is a solution to the [Social Media Dashboard](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
 
