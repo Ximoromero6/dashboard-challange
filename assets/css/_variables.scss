@@ -18,7 +18,8 @@ $light-theme: (
   // Optional light borders
   toggle: hsl(230, 22%, 74%),
   // Toggle (Light Theme)
-  accent: hsl(356, 69%, 56%) // Bright Red (optional accent),,,,,,,,,,
+  accent: hsl(356, 69%, 56%),
+  hover: darken(hsl(227, 47%, 96%), 5),
 );
 
 // Dark Theme
@@ -35,9 +36,10 @@ $dark-theme: (
   // White (Text for titles)
   border: hsl(0, 0%, 30%),
   // Subtle borders
-  toggle: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%)),
+  toggle: linear-gradient(to top left, hsl(210, 78%, 56%), hsl(146, 68%, 55%)),
   // Toggle (Dark Theme)
-  accent: hsl(356, 69%, 56%) // Bright Red (optional accent),,,,,,,,,,
+  accent: hsl(356, 69%, 56%),
+  hover: lighten(hsl(228, 28%, 20%), 5),
 );
 
 // =============================
@@ -55,5 +57,5 @@ $colors: (
   // Twitter
   instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)),
   // Instagram gradient
-  youtube: hsl(348, 97%, 39%) // YouTube
+  youtube: hsl(348, 97%, 39%) // YouTube,,,,,,,
 );

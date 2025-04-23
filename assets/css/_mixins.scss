@@ -16,6 +16,10 @@
   .overview__card {
     background-color: map-get($theme, elements);
     color: map-get($theme, text);
+
+    &:hover {
+      background-color: map-get($theme, hover);
+    }
   }
 
   .card__followers,
