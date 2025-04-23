@@ -116,6 +116,24 @@ input {
   border-radius: 0;
 }
 
+body {
+  position: relative;
+  margin: 0;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh; /* 30% de la altura visible */
+  background-color: hsl(225, 100%, 98%); /* color como el del header */
+  z-index: -1;
+}
+body.dark-mode::before {
+  background-color: hsl(232, 19%, 15%);
+}
+
 header.dashboard__header {
   padding: 50px 15px;
 }
