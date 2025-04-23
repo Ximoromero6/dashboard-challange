@@ -100,7 +100,7 @@ main.dashboard__main {
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 25px;
 
-      article.card {
+      div.card {
         padding: 30px;
         flex: 1;
         border-radius: 5px;
@@ -240,7 +240,7 @@ main.dashboard__main {
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 25px;
 
-        article.overview__card {
+        div.overview__card {
           padding: 30px;
           flex: 1;
           border-radius: 5px;

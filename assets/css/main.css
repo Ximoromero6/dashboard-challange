@@ -201,7 +201,7 @@ main.dashboard__main .container section.dashboard__stats {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
 }
-main.dashboard__main .container section.dashboard__stats article.card {
+main.dashboard__main .container section.dashboard__stats div.card {
   padding: 30px;
   flex: 1;
   border-radius: 5px;
@@ -215,32 +215,32 @@ main.dashboard__main .container section.dashboard__stats article.card {
   transition: background 0.2s;
   cursor: pointer;
 }
-main.dashboard__main .container section.dashboard__stats article.card .card-title-container {
+main.dashboard__main .container section.dashboard__stats div.card .card-title-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-main.dashboard__main .container section.dashboard__stats article.card .card-title-container i {
+main.dashboard__main .container section.dashboard__stats div.card .card-title-container i {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 20px;
 }
-main.dashboard__main .container section.dashboard__stats article.card .card-title-container .card__user {
+main.dashboard__main .container section.dashboard__stats div.card .card-title-container .card__user {
   font-weight: 600;
   font-size: 14px;
 }
-main.dashboard__main .container section.dashboard__stats article.card .card__followers {
+main.dashboard__main .container section.dashboard__stats div.card .card__followers {
   font-size: 52px;
   font-weight: 700;
 }
-main.dashboard__main .container section.dashboard__stats article.card .card__label {
+main.dashboard__main .container section.dashboard__stats div.card .card__label {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 14px;
 }
-main.dashboard__main .container section.dashboard__stats article.card .card__change {
+main.dashboard__main .container section.dashboard__stats div.card .card__change {
   font-size: 14px;
   font-weight: 600;
   margin-top: 10px;
@@ -248,34 +248,34 @@ main.dashboard__main .container section.dashboard__stats article.card .card__cha
   align-items: center;
   gap: 5px;
 }
-main.dashboard__main .container section.dashboard__stats article.card .card__change i {
+main.dashboard__main .container section.dashboard__stats div.card .card__change i {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main.dashboard__main .container section.dashboard__stats article.card .card__change--up {
+main.dashboard__main .container section.dashboard__stats div.card .card__change--up {
   color: hsl(163, 72%, 41%);
 }
-main.dashboard__main .container section.dashboard__stats article.card .card__change--down {
+main.dashboard__main .container section.dashboard__stats div.card .card__change--down {
   color: hsl(356, 69%, 56%);
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--facebook {
+main.dashboard__main .container section.dashboard__stats div.card.card--facebook {
   border-top-color: hsl(208, 92%, 53%);
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--facebook .card-title-container i {
+main.dashboard__main .container section.dashboard__stats div.card.card--facebook .card-title-container i {
   color: hsl(208, 92%, 53%);
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--twitter {
+main.dashboard__main .container section.dashboard__stats div.card.card--twitter {
   border-top-color: hsl(203, 89%, 53%);
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--twitter .card-title-container i {
+main.dashboard__main .container section.dashboard__stats div.card.card--twitter .card-title-container i {
   color: hsl(203, 89%, 53%);
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--instagram {
+main.dashboard__main .container section.dashboard__stats div.card.card--instagram {
   position: relative;
   border-top: none;
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--instagram::before {
+main.dashboard__main .container section.dashboard__stats div.card.card--instagram::before {
   content: "";
   position: absolute;
   top: 0;
@@ -284,15 +284,15 @@ main.dashboard__main .container section.dashboard__stats article.card.card--inst
   width: 100%;
   background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--instagram .card-title-container i {
+main.dashboard__main .container section.dashboard__stats div.card.card--instagram .card-title-container i {
   background: linear-gradient(to top right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--youtube {
+main.dashboard__main .container section.dashboard__stats div.card.card--youtube {
   border-top-color: hsl(348, 97%, 39%);
 }
-main.dashboard__main .container section.dashboard__stats article.card.card--youtube .card-title-container i {
+main.dashboard__main .container section.dashboard__stats div.card.card--youtube .card-title-container i {
   color: hsl(348, 97%, 39%);
 }
 main.dashboard__main .container section.dashboard__overview {
@@ -309,7 +309,7 @@ main.dashboard__main .container section.dashboard__overview .overview {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card {
   padding: 30px;
   flex: 1;
   border-radius: 5px;
@@ -320,28 +320,28 @@ main.dashboard__main .container section.dashboard__overview .overview article.ov
   transition: background 0.2s;
   cursor: pointer;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .icon-container {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .icon-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .icon-container .overview__label {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .icon-container .overview__label {
   font-weight: 700;
   font-size: 14px;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .icon-container i {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .icon-container i {
   font-size: 20px;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .stats-container {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .stats-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .stats-container .overview__number {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .stats-container .overview__number {
   font-size: 34px;
   font-weight: 700;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .stats-container .overview__change {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .stats-container .overview__change {
   font-size: 14px;
   font-weight: 600;
   margin-top: 10px;
@@ -349,29 +349,29 @@ main.dashboard__main .container section.dashboard__overview .overview article.ov
   align-items: center;
   gap: 5px;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .stats-container .overview__change i {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .stats-container .overview__change i {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .stats-container .overview__change--up {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .stats-container .overview__change--up {
   color: hsl(163, 72%, 41%);
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card .stats-container .overview__change--down {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card .stats-container .overview__change--down {
   color: hsl(356, 69%, 56%);
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card--facebook .icon-container i {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card--facebook .icon-container i {
   color: hsl(208, 92%, 53%);
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card--instagram .icon-container i {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card--instagram .icon-container i {
   background: linear-gradient(to top right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card--twitter .icon-container i {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card--twitter .icon-container i {
   color: hsl(203, 89%, 53%);
 }
-main.dashboard__main .container section.dashboard__overview .overview article.overview__card--youtube .icon-container i {
+main.dashboard__main .container section.dashboard__overview .overview div.overview__card--youtube .icon-container i {
   color: hsl(348, 97%, 39%);
 }
 
